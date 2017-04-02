@@ -6,9 +6,6 @@
     <md-card-title>{{project.title}}</md-card-title>
     <md-card-subtitle>{{project.subtitle}}</md-card-subtitle>
   </md-card-header>
-  
-  <iframe *ngIf="video" class="embed-responsive-item" src="video" frameborder="0" webkitallowfullscreen mozallowfullscreen
-    allowfullscreen width="100%" min-height="100%" seamless=""></iframe>
   <img *ngIf="project.thumbnail" md-card-image class="card-thumbnail" src="{{project.thumbnail}}">
   <md-card-content>
     <p *ngIf="project.position"><b>Position:</b>&nbsp;{{project.position}}</p>

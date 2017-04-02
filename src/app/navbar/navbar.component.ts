@@ -20,9 +20,9 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
   ]
 })
 export class NavbarComponent implements OnInit {
-  private state = 'active';
+  public state = 'active';
 
-  constructor( @Inject(DOCUMENT) private document: Document) { }
+  constructor( @Inject(DOCUMENT) private document: any) { }
 
   ngOnInit() {
   }

@@ -5,6 +5,7 @@ interface Project {
     subtitle?: string;
     text?: string;
     advisors?: Array<Person>;
+    colleagues?: Array<Person>;
     position?: string;
     tech?: Array<string>;
     thumbnail?: string;

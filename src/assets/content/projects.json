@@ -211,7 +211,7 @@
         "links": [
             {
                 "title": "Raw CAD Files",
-                "url": "https://sluger.github.io/assets/docs/tripod-cad-files",
+                "url": "./assets/docs/tripod-cad-files.zip",
                 "faicon": "fa-download"
             }
         ],

@@ -10,7 +10,7 @@ import { Subscription } from "rxjs/Subscription";
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit, OnDestroy {
-  private projects: Array<Project>;
+  public projects: Array<Project>;
   private subProjects: Subscription;
 
   constructor(private jsonLoaderService: JsonLoaderService) { }
