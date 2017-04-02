@@ -202,6 +202,7 @@
     {
         "title": "3D Modeling and Printing",
         "subtitle": "3D Modelling and Printing of a Panoramic Tripod Head",
+        "position": "Project Collaboration at the Institut for Computer Graphics, Johannes Kepler University, Linz, Austria.",
         "text": "3D Modelling and Printing of a Panoramic Tripod Head for the Lytro Lightfield Camera.",
         "tech": [
             "AutoCAD",
@@ -277,7 +278,7 @@
     {
         "title": "Web Service Student Project",
         "subtitle": "Web Reference Management Front- and Backend",
-        "text": "A simple back- and frontend implementation to manage (CRUD) literature references on the web.",
+        "text": "Design and implemenation of a literature reference web platform. From the backend, the skeleton templates for the frontend implementation were automatically generated which were extended with Java Server Pages",
         "position": "Student Project at Johannes Kepler University, Linz, Austria.",
         "tech": [
             "JAVA",
@@ -303,7 +304,7 @@
     {
         "title": "Visualization Student Project",
         "subtitle": "RNA Sequence Visualization",
-        "text": "RNA Sequence Visualization and Annotation.",
+        "text": "The joint development of a RNA Sequence Visualization with my colleagues at university enables biochemnists to import any RNA sequences, visualize them based on micro-gravitational forces and let them annotate specific points of interest.",
         "position": "Student Project at University of Applied Sciences Upper Austria - Hagenberg Campus in coorporation with the Medical University of Vienna.",
         "tech": [
             "JAVA",
@@ -315,7 +316,7 @@
     {
         "title": "Web Developer Intern",
         "subtitle": "Extending LIMS",
-        "text": "Developing and extending a Laboratory Information Management System (LIMS).",
+        "text": "Development of a Laboratory Information Management System (LIMS) that is capable of storing dozens of document types. List and detail views enable users to quickly find documents by metadata.",
         "position": "Web Developer at BlueGnome, Cambridge, UK",
         "tech": [
             "Bioinformatics",
