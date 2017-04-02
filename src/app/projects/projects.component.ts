@@ -16,7 +16,7 @@ export class ProjectsComponent implements OnInit, OnDestroy {
   constructor(private jsonLoaderService: JsonLoaderService) { }
 
   public ngOnInit() {
-    this.subProjects = this.jsonLoaderService.loadJson("/assets/content/projects.json").subscribe(
+    this.subProjects = this.jsonLoaderService.loadJson("./assets/content/projects.json").subscribe(
       (next) => {
         this.projects = <Array<Project>>next;
       }
