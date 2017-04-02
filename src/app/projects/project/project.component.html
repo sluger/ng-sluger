@@ -1,0 +1,43 @@
+<md-card class="card mat-elevation-z3">
+  <md-card-header>
+    <div *ngIf="project.faicon" md-card-avatar>
+      <span><i class="fa fa-2x {{project.faicon}}"></i></span>
+    </div>
+    <md-card-title>{{project.title}}</md-card-title>
+    <md-card-subtitle>{{project.subtitle}}</md-card-subtitle>
+  </md-card-header>
+  
+  <iframe *ngIf="video" class="embed-responsive-item" src="video" frameborder="0" webkitallowfullscreen mozallowfullscreen
+    allowfullscreen width="100%" min-height="100%" seamless=""></iframe>
+  <img *ngIf="project.thumbnail" md-card-image class="card-thumbnail" src="{{project.thumbnail}}">
+  <md-card-content>
+    <p *ngIf="project.position"><b>Position:</b>&nbsp;{{project.position}}</p>
+    <p *ngIf="project.advisors"><b>Advisors:</b>
+      <span *ngFor="let a of project.advisors; let i = index;">
+        <a *ngIf="a.url" href="{{a.url}}" target="_blank">{{a.name}}</a><span *ngIf="!a.url">{{a.name}}</span>
+      <span *ngIf="i !== project.advisors.length-1">,&nbsp;</span>
+      </span>
+    </p>
+    <p *ngIf="project.colleagues"><b>Colleagues:</b>
+      <span *ngFor="let c of project.colleagues; let i = index;">
+        <a href="{{c.url}}" target="_blank">{{c.name}}</a><span *ngIf="i !== project.colleagues.length-1">,&nbsp;</span>
+      </span>
+    </p>
+    <p class="justify-content">
+      {{project.text}}
+    </p>
+    <md-chip-list>
+      <md-chip *ngFor="let t of project.tech" color="primary">{{t}}</md-chip>
+    </md-chip-list>
+    <md-list *ngIf="project.links && project.links.length > 0">
+      <p><b>Resources:</b></p>
+      <p md-line *ngFor="let l of project.links">
+        <a href="{{l.url}}" target="_blank">
+          <span><i class="fa {{l.faicon}}"></i></span>&nbsp;{{l.title}} </a>
+      </p>
+    </md-list>
+  </md-card-content>
+  <!--md-card-actions>
+    <button md-button>More</button>
+  </md-card-actions-->
+</md-card>

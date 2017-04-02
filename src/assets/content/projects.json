@@ -1,0 +1,327 @@
+[
+    {
+        "title": "Portfolio Website",
+        "subtitle": "Static Angular-CLI and Material Design based Website hosted on Github",
+        "text": "As I wanted make myself familiar with Angular-CLI and Material Design for quite some time. Over one weekend, I decided to reimplement my portfolio website.",
+        "tech": [
+            "Angular",
+            "Angular CLI",
+            "Typescript",
+            "Angular Material 2",
+            "Angular Animations"
+        ],
+        "links": [
+            {
+                "title": "Source",
+                "url": "https://github.com/sluger/ng-sluger",
+                "faicon": "fa-github"
+            }
+        ],
+        "faicon": "fa-address-card-o"
+    },
+    {
+        "title": "Software Developer",
+        "subtitle": "Big Data and Data Analysis",
+        "text": "On Tomo, I am responsible for designing and implementing the API as well as the UI/UX for Tomo, a web-based Big Data analysis platform (see tomo-base.at) utilizing a broad tech stack.",
+        "position": "Full Stack Web Developer at HCSolutionsGesmbH, Linz, Austria.",
+        "tech": [
+            "Angular",
+            "Typescript",
+            "JavaScript",
+            "API Design",
+            "Java",
+            "Index-Backend",
+            "NoSQL"
+        ],
+        "links": [
+            {
+                "title": "HC Solutions GesmbH",
+                "url": "https://www.en.hcsolutions.at/",
+                "faicon": "fa-link"
+            },
+            {
+                "title": "Tomo",
+                "url": "https://www.tomo-base.at/",
+                "faicon": "fa-link"
+            },
+            {
+                "title": "Blog post on Visualization and Visual Analytics",
+                "url": "https://www.tomo-base.at/single-post/2016/07/21/Visualanalytics",
+                "faicon": "fa-link"
+            }
+        ],
+        "faicon": "fa-briefcase"
+    },
+    {
+        "title": "Master's Thesis",
+        "subtitle": "Interactive Visualization of Provenance Graphs for Reproducible Biomedical Research",
+        "text": "A major challenge of data-driven biomedical research lies in the collection and representation of provenance information to ensure reproducibility of the gained results. The Refinery Platform is an integrated data management, analysis, and visualization system designed to support reproducible biomedical research. In order to communicate and reproduce multi-step analyses on datasets that contain data of hundreds of samples, it is crucial to be able to visualize the provenance graph at different levels of detail. Most existing approaches are based on node-link diagrams, however, they usually do not scale well to large graphs. Our proposed visualization technique dynamically reduces the complexity of subgraphs through hierarchical aggregation and application of a degree-of-interest (DOI) function to each node. Triggered by user interactions, such as selecting a subset of analyses or a path in the graph, unaffected parts of the graph are dynamically aggregated into a glyph representation. We further reduce the complexity of the provenance graph visualization by layering identical or similar sequences of parallel analysis steps into an aggregated sequence.",
+        "advisors": [
+            {
+                "name": "Marc Streit",
+                "url": "https://github.com/mstreit"
+            },
+            {
+                "name": "Nils Gehlenborg",
+                "url": "https://github.com/ngehlenborg"
+            }
+        ],
+        "colleagues": [
+            {
+                "name": "Holger Stitz",
+                "url": "https://github.com/thinkh"
+            },
+            {
+                "name": "Samuel Gratzl",
+                "url": "https://github.com/sgratzl"
+            }
+        ],
+        "position": "Master's Thesis at Johannes Kepler University, Linz, Austria.",
+        "tech": [
+            "Graphs",
+            "Data Visualization",
+            "Full Stack Web Development"
+        ],
+        "thumbnail": "./assets/img/provenance-vis.png",
+        "video": "https://vimeo.com/137118409",
+        "links": [
+            {
+                "title": "Source",
+                "url": "https://github.com/parklab/refinery-platform",
+                "faicon": "fa-github"
+            },
+            {
+                "title": "Presentation",
+                "url": "https://sluger.github.io/provenance-visualization-presentation/",
+                "faicon": "fa-link"
+            },
+            {
+                "title": "Thesis",
+                "url": "./assets/docs/msc-thesis.pdf",
+                "faicon": "fa-download"
+            },
+            {
+                "title": "Refinery Platform",
+                "url": "http://www.refinery-platform.org/",
+                "faicon": "fa-link"
+            },
+            {
+                "title": "IEEE VIS Poster Submission",
+                "url": "./assets/docs/provvis-poster-submission.pdf",
+                "faicon": "fa-download"
+            },
+            {
+                "title": "IEEE VIS Poster",
+                "url": "./assets/docs/provvis-poster.pdf",
+                "faicon": "fa-download"
+            }
+        ],
+        "faicon": "fa-graduation-cap"
+    },
+    {
+        "title": "MEAN Stack App",
+        "subtitle": "TV Show Ratings",
+        "text": "This is a very simple MEAN Stack App based on MongoDB, Express.js, AngularJS, and Node.js that lists TV Shows with a Title and a Rating. The backend is done via Express on top of Node that provides a RESTful API of simple data stored in MongoDB. The frontend is written in Angular that consumes the REST endpoints with ngResource. Routing is done with ngRoute.",
+        "tech": [
+            "MongoDB",
+            "Express.js",
+            "AngularJS",
+            "Node.js"
+        ],
+        "thumbnail": "./assets/img/meanshows.png",
+        "links": [
+            {
+                "title": "Source",
+                "url": "https://github.com/sluger/MeanShows",
+                "faicon": "fa-github"
+            }
+        ],
+        "faicon": "fa-code"
+    },
+    {
+        "title": "Django Angular App",
+        "subtitle": "Books and Authors",
+        "text": "This project is based on Django and AngularJS using Tastypie to separate client and server side. Initially this project focused on a serverside only implementation (e.g. Django inline formsets - hence the formset naming) and was then expanded through Tastypie and AngularJS to add a decoupled client side via restful API. The data held is of 'Authors' and 'Books', where multiple Authors may have written multiple books and vice versa.",
+        "tech": [
+            "Django",
+            "Python",
+            "Tystypie",
+            "AngularJS"
+        ],
+        "thumbnail": "./assets/img/django.png",
+        "links": [
+            {
+                "title": "Source",
+                "url": "https://github.com/sluger/Restful-Django-Angular-Tutorial"
+            }
+        ],
+        "faicon": "fa-code"
+    },
+    {
+        "title": "Master Practicum",
+        "subtitle": "An Interactive Workflow Visualization for Biomedical Processing Pipelines Integrated into the Refinery Platform",
+        "text": "In the field of biomedical research, domain experts have to manage the complexity of heterogeneous and large data processed within analysis pipelines. Their goal is to get insights through (intermediate) results conveyed by the workflows representing the pipelines. Obviously, when analyzing biomedical data (such as blood samples taken from patients), the information is stored in raw text formats and often too big to be handled. Scientific workflows consist of tools with each of them defining their own experiment execution parameters. Because of the vast amount of data being processed, simply labeling the tools of a workflow (Nodes) and the IO-file stream connecting nodes (Links) would cause too much textual information. The Refinery Platform (Refinery) - developed by the Park Lab in collaboration with the Hide Lab in Harvard - aims to collect, process and most importantly visualize biomedical workflows. Their former visualization was based on a Python-based generated image which does not fulfill its initial purpose any more. In this report, we present a workflow visualization based on the Data-Driven Documents (D3.js) JavaScript library that provides level of detail, encodes multidimensional information through compact glyph design and provides necessary interaction features to satisfy the needs of domain experts working with biomedical data. The analyst’s requirements are then formalized as user tasks. These tasks are looked at concerning visual encoding and design choices as well as implementation and limitations. The workflow visualization is integrated into Refinery and showcased by the use of complex workflows (provided by the Galaxy Project). Cancer researchers who are working with processing pipelines on a regular basis will benefit from the visualization presented.",
+        "advisors": [
+            {
+                "name": "Marc Streit",
+                "url": "https://github.com/mstreit"
+            },
+            {
+                "name": "Nils Gehlenborg",
+                "url": "https://github.com/ngehlenborg"
+            }
+        ],
+        "position": "Master Practicum at Johannes Kepler University, Linz, Austria.",
+        "tech": [
+            "JavaScript",
+            "D3.js",
+            "SVG",
+            "HTML",
+            "CSS"
+        ],
+        "thumbnail": "./assets/img/workflow-vis.png",
+        "links": [
+            {
+                "title": "Source",
+                "url": "https://github.com/parklab/refinery-platform",
+                "faicon": "fa-github"
+            },
+            {
+                "title": "Refinery Platform",
+                "url": "http://www.refinery-platform.org/",
+                "faicon": "fa-github"
+            },
+            {
+                "title": "Technical Report",
+                "url": "./assets/docs/workflow-vis.pdf",
+                "faicon": "fa-download"
+            }
+        ],
+        "faicon": "fa-bar-chart"
+    },
+    {
+        "title": "3D Modeling and Printing",
+        "subtitle": "3D Modelling and Printing of a Panoramic Tripod Head",
+        "text": "3D Modelling and Printing of a Panoramic Tripod Head for the Lytro Lightfield Camera.",
+        "tech": [
+            "AutoCAD",
+            "3D Printing"
+        ],
+        "thumbnail": "./assets/img/panoramic-tripod-head.png",
+        "links": [
+            {
+                "title": "Raw CAD Files",
+                "url": "https://sluger.github.io/assets/docs/tripod-cad-files",
+                "faicon": "fa-download"
+            }
+        ],
+        "faicon": "fa-video-camera"
+    },
+    {
+        "title": "Bachelor's Thesis",
+        "subtitle": "Constraint Generation and Partial Fixing for UML Models through Transformation",
+        "text": "Working with complex models not only requires knowledge and skills to design them, but more importantly, change triggered to model elements by humans may violate the wellformedness or semantic design rules. Especially, semantic relationships within Unified Modeling Language (UML) models are complicated to preserve. Model-driven engineering standards such as the Object Constraint Language (OCL) support the necessary consistency checking. However, the manual generation of such constraint expressions and in advance the elimination of inconsistencies does not suit our needs. In this thesis, an incremental model manipulation approach (achieved through the ATLAS Transformation Language) is used to present an application for both traditional model transformation and constraint-driven modeling with the goal to eliminate existing inconsistencies (as far as possible). During the process of the transformatino, constraints are generated to validate the model with - all in the context of the UML. In particular, nine different constraint-driven scenarios, supporting class, sequence and statemachine diagrams/models, were developed. To Illustrate a successful transformation process, the updated model is validated via the OCL subsequently. Model designers in the needs of consistency checking and constraint generation benefit from the automatic and incremental execution provided by the implementation.",
+        "advisors": [
+            {
+                "name": "Alexander Egyed",
+                "url": "https://scholar.google.com/citations?user=tN-tEGIAAAAJ&hl=en"
+            },
+            {
+                "name": "Andreas Demuth"
+            }
+        ],
+        "position": "Bachelor's Thesis at Johannes Kepler University, Linz, Austria.",
+        "tech": [
+            "Java",
+            "XML",
+            "UML",
+            "ATL",
+            "OCL"
+        ],
+        "thumbnail": "./assets/img/uml-trans.png",
+        "links": [
+            {
+                "title": "Source",
+                "url": "https://github.com/sluger/UML2UML",
+                "faicon": "fa-github"
+            },
+            {
+                "title": "Bachelor's Thesis",
+                "url": "./assets/docs/bsc-thesis.pdf",
+                "faicon": "fa-download"
+            }
+        ],
+        "faicon": "fa-graduation-cap"
+    },
+    {
+        "title": "Virtual Reality Student Project",
+        "subtitle": "3D DNA Visualization for the Virtual Reality Cave",
+        "text": "Developing a virtual reality cave application that visualizes a strand of base pairs of the human DNA. Model molecular correct base pair models in Autodesk 3ds Max (VRML97 Export). Build a DNA sequence in OpenSG and CAVESceneManager as scenegraph from shallow copied models. Find rotation and distance params to form the DNA helix. Add a sun for lighting, which is controlled via joystick and controller tracking for moving through the scene. Enable headtracking. Interaction: Due to collision detection (direct placement upon atom), the sun will change its color to the corresponding basepair. Immersion!",
+        "position": "Student Project at Johannes Kepler University, Linz, Austria.",
+        "tech": [
+            "3dsMax",
+            "Virtual Reality",
+            "C++",
+            "SceneGraph"
+        ],
+        "thumbnail": "./assets/img/vrdnavis.PNG",
+        "links": [
+            {
+                "title": "Source",
+                "url": "https://github.com/sluger/CaveDNAVis",
+                "faicon": "fa-github"
+            }
+        ],
+        "faicon": "fa-gamepad"
+    },
+    {
+        "title": "Web Service Student Project",
+        "subtitle": "Web Reference Management Front- and Backend",
+        "text": "A simple back- and frontend implementation to manage (CRUD) literature references on the web.",
+        "position": "Student Project at Johannes Kepler University, Linz, Austria.",
+        "tech": [
+            "JAVA",
+            "XML",
+            "WSDL",
+            "Soap",
+            "JSP"
+        ],
+        "faicon": "fa-code"
+    },
+    {
+        "title": "Practicum in Bioinformatics",
+        "subtitle": "Java Framework for Microarray Data Processing",
+        "text": "I have implemented a Java interface for the purpose of processing microarray-based patient samples. These samples are laid onto pipetting layouts that serve as the input for the microplates. A bar code check implementation and a validation report will help to raise the standrads in quality control. So to speak, I have translated the former manual and cumbersome working process into an efficient and usability-driven user interface application.",
+        "position": "Software Developer at Krankenhaus der Barmherzigen Schwestern Linz",
+        "tech": [
+            "JAVA",
+            "SWT",
+            "Bioinformatics"
+        ],
+        "faicon": "fa-hospital-o"
+    },
+    {
+        "title": "Visualization Student Project",
+        "subtitle": "RNA Sequence Visualization",
+        "text": "RNA Sequence Visualization and Annotation.",
+        "position": "Student Project at University of Applied Sciences Upper Austria - Hagenberg Campus in coorporation with the Medical University of Vienna.",
+        "tech": [
+            "JAVA",
+            "XML",
+            "Prefuse"
+        ],
+        "faicon": "fa-bar-chart"
+    },
+    {
+        "title": "Web Developer Intern",
+        "subtitle": "Extending LIMS",
+        "text": "Developing and extending a Laboratory Information Management System (LIMS).",
+        "position": "Web Developer at BlueGnome, Cambridge, UK",
+        "tech": [
+            "Bioinformatics",
+            "CGI",
+            "Linux"
+        ],
+        "faicon": "fa-code"
+    }
+]

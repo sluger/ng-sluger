@@ -1,0 +1,37 @@
+:host /deep/ .card {
+    width: 50rem;
+    max-width: 50rem;
+    background-color: white;
+    p.justify-content {
+        text-align: justify;
+    }
+    .mat-card-title {
+        font-size: 1.3rem;
+    }
+    .mat-card-subtitle {
+        font-size: 0.9rem;
+    }
+    .mat-card-image {
+        //max-width:50rem;
+    }
+    .mat-chip-list-wrapper {
+        .mat-chip {
+            margin-bottom: 0.25rem;
+        }
+    }
+    .mat-card-avatar {
+        span>i {
+            color: #607D8B;
+        }
+    }
+    .mat-icon {
+        font-size: 1rem;
+        width: 1rem;
+        height: 1rem;
+        vertical-align: middle;
+    }
+}
+
+:host .card:hover {
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+}

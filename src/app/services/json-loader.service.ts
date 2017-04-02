@@ -11,7 +11,7 @@ export class JsonLoaderService {
   constructor(private http: Http) {
     }
 
-    public loadJson(url: string) {
+    public loadJson(url: string): Observable<{}> {
         return this.http.get(url, {})
             .map((res) => { return res.json() })
             .catch((error) => { return error.message || 'error'; });

@@ -1,0 +1,49 @@
+:host .card {
+    background-color: #607D8B;
+    color: white;
+    //width: 50rem;
+    //max-width: 50rem;
+    //background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    div.justify-content {
+        text-align: justify;
+    }
+    .mat-card-avatar.profile-avatar {
+        width: 4rem;
+        height: 4rem;
+        padding-right:1rem;
+        img {
+            width: 4rem;
+            height: 4rem;
+            border-radius: 0.5rem;
+            border: 2px solid #ffd740;
+            //background-image: url('/assets/img/profile.jpg');
+        }
+    }
+    .mat-card-title {
+        font-size: 2rem;
+        color: #ffd740;
+    }
+    .mat-card-subtitle {
+        font-size: 0.9rem;
+        color: #ffd740;
+    }
+    .mat-card-actions {
+        display: flex;
+        justify-content: center;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        font-size: 0.9rem;
+    }
+
+    a {
+            color: white!important;
+            padding: 0.25rem;
+            &:hover {
+                color: #ffd740!important;
+            }
+        }
+}

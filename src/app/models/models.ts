@@ -1,17 +1,25 @@
-export { Project, Person }
+export { Project, Link, Person }
 
 interface Project {
     title?: string;
-    description?: string;
-    skills?: Array<string>;
+    subtitle?: string;
+    text?: string;
+    advisors?: Array<Person>;
+    position?: string;
+    tech?: Array<string>;
+    thumbnail?: string;
+    video?: string;
+    links?: Array<Link>;
+    faicon?: string;
+}
+
+interface Link {
+    title?: string;
+    url?: string;
+    faicon?: string;
 }
 
 interface Person {
     name?: string;
-    contact?: string;
-}
-
-interface PageMetaData {
-    title?: string;
-    subTitle?: string;
+    link?: string;
 }

@@ -1,0 +1,142 @@
+:host /deep/ .mat-toolbar {
+    position: fixed;
+    z-index: 10;
+    height: 3rem;
+    min-height: 3.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    //background-image: url(/assets/img/chicago.jpg);
+    //background: #1976D2;
+    .mat-toolbar-layout {
+        height: inherit;
+        .mat-toolbar-row {
+            height: inherit;
+            .nav-large-width {
+                height: inherit;
+                .align-left {
+                    display: flex;
+                    height: inherit;
+                    a {
+                        height: inherit;
+                        font-weight: 500;
+                        display: flex;
+                        align-items: center;
+                        font-size: 1.4rem;
+                        img {
+                            border: 2px solid white;
+                            border-radius: 0.5rem;
+                            width: 1.5rem;
+                            height: 1.5rem;
+                        }
+                        &:hover {
+                            span.mat-button-wrapper {
+                                img {
+                                    border-color: #ffd740;
+                                }
+                            }
+                            color: #ffd740;
+                            .mat-button-ripple {
+                                border-bottom: 4px solid #ffd740;
+                            }
+                            .mat-button-focus-overlay {
+                                background-color: transparent;
+                                border-radius: 0;
+                            }
+                        }
+                    }
+                }
+            }
+            .nav-small-width {
+                height: inherit;
+                flex-grow: 1;
+                .align-left {
+                    display: flex;
+                    height: inherit;
+                    flex-grow: 1;
+                    a {
+                        height: inherit;
+                        font-weight: 500;
+                        display: flex;
+                        align-items: center;
+                        font-size: 1.5rem;
+                        min-width: 2.25rem;
+                        flex-grow: 1;
+                        img {
+                            border: 2px solid white;
+                            border-radius: 0.5rem;
+                            width: 1.5rem;
+                            height: 1.5rem;
+                        }
+                        &:hover {
+                            span.mat-button-wrapper {
+                                img {
+                                    border-color: #ffd740;
+                                }
+                            }
+                            color: #ffd740;
+                            .mat-button-ripple {
+                                border-bottom: 4px solid #ffd740;
+                            }
+                            .mat-button-focus-overlay {
+                                background-color: transparent;
+                                border-radius: 0;
+                            }
+                        }
+                        span {
+                            margin-left: auto;
+                            margin-right: auto;
+                            md-icon {
+                                height: 2.25rem;
+                                width: 2.25rem;
+                                font-size: 2.25rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .align-right {
+                cursor: default;
+                right: 0;
+                margin-left: auto;
+                .name {
+                    font-size: 1.5rem;
+                    text-align: right;
+                }
+                .profession {
+                    font-size: 0.7rem;
+                    text-align: right;
+                    div {
+                        right: 0;
+                        margin-left: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.toolbar-large {
+    height: 5rem;
+}
+
+@media (max-width: 400px) {
+    .nav-large-width {
+        display: none;
+    }
+    .nav-small-width {
+        display: block;
+    }
+}
+
+@media (min-width: 400px) {
+    .nav-large-width {
+        display: block;
+    }
+    .nav-small-width {
+        display: none;
+    }
+}
+
+a {
+    text-decoration: none;
+}
