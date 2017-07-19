@@ -29,7 +29,9 @@ export class NavbarComponent implements OnInit {
 
   @HostListener('window:scroll', ['$event'])
   private onWindowScroll($event: Event): void {
-    let yPos = this.document.body.scrollTop;
+    // fixed scroll trigger
+    // let yPos = this.document.body.scrollTop;
+    let yPos = $event.target['scrollingElement'].scrollTop
     if (yPos > 50 && this.state == 'active') {
       this.state = 'inactive'
     } else if (yPos < 50 && this.state == 'inactive') {

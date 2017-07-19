@@ -17,17 +17,17 @@
             width: 4rem;
             height: 4rem;
             border-radius: 0.5rem;
-            border: 2px solid #ffd740;
+            border: 2px solid #ffca00;
             //background-image: url('/assets/img/profile.jpg');
         }
     }
     .mat-card-title {
         font-size: 2rem;
-        color: #ffd740;
+        color: #ffca00;
     }
     .mat-card-subtitle {
         font-size: 0.9rem;
-        color: #ffd740;
+        color: #ffca00;
     }
     .mat-card-actions {
         display: flex;
@@ -43,7 +43,7 @@
             color: white!important;
             padding: 0.25rem;
             &:hover {
-                color: #ffd740!important;
+                color: #ffca00!important;
             }
         }
 }
