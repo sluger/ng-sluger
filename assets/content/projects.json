@@ -2,7 +2,7 @@
     {
         "title": "Portfolio Website",
         "subtitle": "Static Angular-CLI and Material Design based Website hosted on Github",
-        "text": "As I wanted make myself familiar with Angular-CLI and Material Design for quite some time. Over one weekend, I decided to reimplement my portfolio website.",
+        "text": "As I wanted to make myself familiar with Angular-CLI and Material Design for quite some time, I have reimplement my portfolio website.",
         "tech": [
             "Angular",
             "Angular CLI",
@@ -22,16 +22,18 @@
     {
         "title": "Software Developer",
         "subtitle": "Big Data and Data Analysis",
-        "text": "On Tomo, I am responsible for designing and implementing the API as well as the UI/UX for Tomo, a web-based Big Data analysis platform (see tomo-base.at) utilizing a broad tech stack.",
-        "position": "Full Stack Web Developer at HCSolutionsGesmbH, Linz, Austria.",
+        "text": "At HC Solutions GesmbH, I am responsible for designing and implementing the API as well as the UI/UX for Tomo, a web-based Big Data analysis platform utilizing a broad tech stack.",
+        "position": "Full Stack Web Developer at HC Solutions GesmbH, Linz, Austria.",
         "tech": [
             "Angular",
-            "Typescript",
+            "TypeScript",
             "JavaScript",
-            "API Design",
+            "D3",
             "Java",
+            "API Design",
+            "UX/UI Design",
             "Index-Backend",
-            "NoSQL"
+            "Scrum"
         ],
         "links": [
             {
@@ -121,7 +123,7 @@
     {
         "title": "MEAN Stack App",
         "subtitle": "TV Show Ratings",
-        "text": "This is a very simple MEAN Stack App based on MongoDB, Express.js, AngularJS, and Node.js that lists TV Shows with a Title and a Rating. The backend is done via Express on top of Node that provides a RESTful API of simple data stored in MongoDB. The frontend is written in Angular that consumes the REST endpoints with ngResource. Routing is done with ngRoute.",
+        "text": "This is a very simple MEAN Stack App based on MongoDB, Express.js, AngularJS, and Node.js that lists TV Shows including title and rating. The backend is done via Express on top of Node that provides a RESTful API of simple data stored in MongoDB. The frontend is written in Angular that consumes the REST endpoints with ngResource. Routing is done with ngRoute.",
         "tech": [
             "MongoDB",
             "Express.js",
