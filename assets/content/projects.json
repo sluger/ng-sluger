@@ -1,5 +1,26 @@
 [
     {
+        "title": "Pizza Service",
+        "subtitle": "Pizza service web app with Python Flask, Angular 4, and MongoDB",
+        "text": "The pizza service app lets you order pizzas with additional extras. Selected pizzas are stored in the shopping cart until ordered. The app is separted by a restful API into a Flask backend and Angular frontend. Data is read and written to MongoDB.",
+        "tech": [
+            "Flask",
+            "Python",
+            "Angular",
+            "Typescript",
+            "MongoDB"
+        ],
+        "links": [
+            {
+                "title": "Source",
+                "url": "https://github.com/sluger/usersnack",
+                "faicon": "fa-github"
+            }
+        ],
+        "thumbnail": "./assets/img/usersnack.png",
+        "faicon": "fa-code"
+    },
+    {
         "title": "Portfolio Website",
         "subtitle": "Static Angular-CLI and Material Design based Website hosted on Github",
         "text": "As I wanted to make myself familiar with Angular-CLI and Material Design for quite some time, I have reimplement my portfolio website.",
