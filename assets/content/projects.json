@@ -2,7 +2,7 @@
     {
         "title": "Pizza Service",
         "subtitle": "Pizza service web app with Python Flask, Angular 4, and MongoDB",
-        "text": "The pizza service app lets you order pizzas with additional extras. Selected pizzas are stored in the shopping cart until ordered. The app is separted by a restful API into a Flask backend and Angular frontend. Data is read and written to MongoDB.",
+        "text": "The pizza service app lets you order pizzas with additional extras. Selected pizzas are stored in the shopping cart until ordered. The app is separated by a restful API into a Flask backend and Angular frontend. Data is read from and written to MongoDB.",
         "tech": [
             "Flask",
             "Python",
